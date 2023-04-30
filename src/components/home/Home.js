@@ -8,12 +8,9 @@ import Footer from '../footer/Footer';
   
   return (
 <>
-
-<Header />
-
-<Tours dataSent={props}/>
-
-<Footer />
+<Header/>
+<Tours data={props.data}/>
+<Footer/>
 
 </>
   )
