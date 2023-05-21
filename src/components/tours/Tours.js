@@ -6,7 +6,7 @@ function Tours(props) {
 
 
     return (
-        <>
+        <div className='PlaceContainer'>
             {
                 props.data.map(tour => {
                     return (
@@ -14,11 +14,14 @@ function Tours(props) {
                             <Link to={`/city/${tour.id}`}>
                                 <Tour name={tour.name} image={tour.image} />
                             </Link>
+                            <br></br>
+                            <br></br>
                         </div>
+                        
                     )
                 })
             }
-        </>
+        </div>
     )
 }
 
