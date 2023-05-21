@@ -1,22 +1,18 @@
-
+import './Footer.css';
 
 function Footer(){
     return (
-  <>
-  <footer>
-        <p>Created by: Ammar Tarawneh</p>
-        <section id="contacts">
-            <p2>Contact us:</p2>
-            <br></br>
-            {/* eslint-disable-next-line jsx-a11y/anchor-is-valid */}
-            <a href="#" id="contLogo"> Twitter</a>
-            <br></br>
-            {/* eslint-disable-next-line jsx-a11y/anchor-is-valid */}
-            <a href="#" id="contLogo"> Facebook</a>
-        </section>
-    </footer>
-  
-  </>
+  <div className="footer">
+            <p className="auother">copyright &copy;2023 <a href="#">Ammar Tarawneh</a></p>
+            
+                <ul className="socials">
+                    <li><a href="#">Facebook</a></li>
+                    <li><a href="#">Instagram</a></li>
+                     <li><a href="#">Twitter</a></li>
+                    
+                </ul>
+            
+        </div>
     )
    }
   
